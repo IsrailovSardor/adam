@@ -1,0 +1,52 @@
+.whyMe {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    overflow: hidden;
+    height: fit-content;
+
+    .title {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: 500;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .arrowBlock {
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .blockAccordion {
+            font-size: 18px;
+            transition: 200s ease-out;
+
+            .desrc {
+                display: flex;
+                cursor: pointer;
+                gap: 12px;
+
+                .des {
+                    color: white;
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .time {
+        border-top: 1px solid white;
+        color: white;
+        font-size: 18px;
+        margin: 0 30px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+}
