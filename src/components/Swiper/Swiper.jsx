@@ -42,7 +42,7 @@ const arrSwiper = [
 
 const SwiperBlock = () => {
     return (
-        <div className={css.swiper}>
+        <div className={css.swiper} id="whyMe">
             <p className={css.globalTitlle}>Почему стоит обратиться ко мне?</p>
 
             <Swiper
@@ -64,8 +64,7 @@ const SwiperBlock = () => {
                     slot="container-start"
                     className={css.parallaxBg}
                     style={{
-                        backgroundImage:
-                            'url("https://img.freepik.com/premium-photo/black-background-with-a-ball-and-candles-divination-and-prediction-of-fate_494741-49852.jpg")',
+                        backgroundImage: 'url("https://img.freepik.com/free-vector/realistic-luxury-background-design_23-2149075588.jpg")',
                     }}
                     data-swiper-parallax="-23%"
                 ></div>

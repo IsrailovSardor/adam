@@ -3,7 +3,7 @@ import css from "./Insta.module.scss";
 
 const Insta = () => {
     return (
-        <div className={css.myInst}>
+        <div className={css.myInst} id="inst">
             <div className={css.container}>
                 <p className={css.title}>Мои Инстаграм</p>
                 <div className={css.blocks}>

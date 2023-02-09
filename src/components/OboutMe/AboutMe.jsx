@@ -5,7 +5,7 @@ import Feedback from "../Feedback/Feedback";
 
 const AboutMe = () => {
     return (
-        <div className={css.aboutMe}>
+        <div className={css.aboutMe} id="aboutMe">
             <div className={css.container}>
                 <div className={css.blockAboutMe}>
                     <div className={css.blockText}>

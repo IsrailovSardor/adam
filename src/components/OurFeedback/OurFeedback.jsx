@@ -3,7 +3,7 @@ import css from "./OurFeedback.module.scss";
 
 const OurFeedback = () => {
     return (
-        <div className={css.ourFeedback}>
+        <div className={css.ourFeedback} id="call">
             <div className={css.container}>
                 <p className={css.title}>Оставьте заявку на обратный звонок</p>
                 <div className={css.blocks}>

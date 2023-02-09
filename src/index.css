@@ -7,6 +7,10 @@
   font-family: 'Oswald', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
 }
@@ -22,7 +26,7 @@ body::after {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  animation: 40s linear infinite running slidein;
+  animation: 20s linear infinite running slidein;
 }
 
 body::before {
@@ -70,11 +74,11 @@ body::before {
 
   61% {
     transform: scale(1.2);
-    background-image: url('./assets/img/bg3.jpg');
+    background-image: url('https://www.gorodche.ru/wp-content/uploads/2023/01/gadaniya023404.jpg');
   }
 
   80% {
-    background-image: url('./assets/img/bg3.jpg');
+    background-image: url('https://www.gorodche.ru/wp-content/uploads/2023/01/gadaniya023404.jpg');
     transform: scale(1);
   }
 

@@ -1,6 +1,12 @@
 .services {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url("https://img.freepik.com/free-photo/golden-creative-lights-halftone-wallpaper_1017-2751.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 8px solid gold;
+    border-bottom: 8px solid gold;
 
     .container {
         width: 100%;
@@ -44,10 +50,9 @@
 
         .blocks {
             margin-top: 60px;
-            border-radius: 50%;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            gap: 80px;
+            gap: 50px;
 
             .block {
                 width: 100%;
@@ -56,14 +61,10 @@
                 align-items: center;
                 gap: 10px;
 
-                &:hover>.img {
-                    box-shadow: rgba(0, 0, 0, 0.56) 0px 10px 50px 4px;
-                }
-
                 .img {
                     transition: 0.3s;
-                    width: 200px;
-                    height: 200px;
+                    width: 300px;
+                    height: 300px;
                     border-radius: 50%;
                 }
 
@@ -71,6 +72,7 @@
                     text-align: center;
                     font-size: 26px;
                     font-weight: 600;
+                    border-bottom: 2px solid gold;
                 }
 
                 .descr {
