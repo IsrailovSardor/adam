@@ -1,3 +1,4 @@
+import Client from "./components/Client/Client";
 import Header from "./components/Header/Header";
 import Insta from "./components/Insta/Insta";
 import AboutMe from "./components/OboutMe/AboutMe";
@@ -13,6 +14,7 @@ function App() {
             <Services />
             <SwiperBlock />
             <Insta />
+            <Client />
             <OurFeedback />
         </div>
     );

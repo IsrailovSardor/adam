@@ -16,7 +16,7 @@ const Header = () => {
 
                     <li className={css.img}>
                         <img
-                            src="https://img.freepik.com/premium-vector/hand-drawn-mystical-crystal-ball-with-star-and-sun-in-line-art-magic-collection-symbol-talisman-antique-style-boho-vector-doodle-sketch-illustration-isolated-on-white-background_245580-1469.jpg?w=740"
+                            src="https://cdn-icons-png.flaticon.com/512/5005/5005651.png"
                             alt=""
                         />
                     </li>

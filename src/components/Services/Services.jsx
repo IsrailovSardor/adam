@@ -3,32 +3,32 @@ import css from "./Services.module.scss";
 
 const servicesArr = [
     {
-        img: "https://magiahelped.com/img/s2.png",
+        img: "https://magist.kz/img/icons-image/icon-1.jpg",
         title: "Помощь в бизнесе",
         descr: "помощь в определении и выборе вашего будущего бизнеса, открытие канала на денежный поток",
     },
     {
-        img: "https://magiahelped.com/img/s1.png",
+        img: "https://magist.kz/img/icons-image/icon-2.jpg",
         title: "Проведение обрядов",
         descr: "очищение помещений, магазинов. очищение от негативных воздействий.",
     },
     {
-        img: "https://magiahelped.com/img/s3.png",
+        img: "https://magist.kz/img/icons-image/icon-3.jpg",
         title: "Снятие негативных воздействий",
         descr: "очищение от всех негативных воздействий белой и черной магии, установка защиты и оберега",
     },
     {
-        img: "https://magiahelped.com/img/s4.png",
+        img: "https://magist.kz/img/icons-image/icon-4.jpg",
         title: "Снятие зависимости",
         descr: "снятие зависимости любой сложности: игромании, алкоголизма, зависимости к человеку и т. д.",
     },
     {
-        img: "https://magiahelped.com/img/s5.png",
+        img: "https://magist.kz/img/icons-image/icon-9.jpg",
         title: "Гадание на будущее",
         descr: "предсказание будущих событий или определение их характера",
     },
     {
-        img: "https://magiahelped.com/img/s11.png",
+        img: "https://magist.kz/img/icons-image/icon-6.jpg",
         title: "Снятие чужих чар",
         descr: "избавление от чужих приворотов",
     },
@@ -36,20 +36,25 @@ const servicesArr = [
 
 const Services = () => {
     return (
-        <div className={css.services} id="service">
-            <div className={css.container}>
-                <p className={css.title}>Мои услуги</p>
-                <div className={css.blocks}>
-                    {servicesArr.map((item, index) => (
-                        <div className={css.block} key={index}>
-                            <img src={item.img} alt="гадание" className={css.img} />
-                            <p className={css.titleText}>{item.title}</p>
-                            <p className={css.descr}>{item.descr}</p>
-                        </div>
-                    ))}
+        <>
+            <div className={css.services} id="service">
+                <div className={css.container}>
+                    <p className={css.title}>Мои услуги</p>
+                    <div className={css.blocks}>
+                        {servicesArr.map((item, index) => (
+                            <div className={css.block} key={index}>
+                                <div className={css.anim}>
+                                    <img src={item.img} alt="img"  className={css.img}/>
+                                </div>
+
+                                <p className={css.titleText}>{item.title}</p>
+                                <p className={css.descr}>{item.descr}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./Swiper.module.scss";
 import {Swiper, SwiperSlide} from "swiper/react";
-import {Parallax, Pagination, Navigation} from "swiper";
+import {Autoplay, Pagination} from "swiper";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -46,29 +46,19 @@ const SwiperBlock = () => {
             <p className={css.globalTitlle}>Почему стоит обратиться ко мне?</p>
 
             <Swiper
-                style={{
-                    "--swiper-navigation-color": "#fff",
-                    "--swiper-pagination-color": "#fff",
-                }}
-                speed={600}
-                parallax={true}
+                slidesPerView={1}
+                centeredSlides={true}
+                spaceBetween={30}
+                grabCursor={true}
                 pagination={{
                     clickable: true,
                 }}
-                spaceBetween={50}
-                navigation={true}
-                modules={[Parallax, Pagination, Navigation]}
+                autoplay={{
+                    delay: 4000,
+                }}
+                modules={[Autoplay, Pagination]}
                 className={css.mySwiper}
             >
-                <div
-                    slot="container-start"
-                    className={css.parallaxBg}
-                    style={{
-                        backgroundImage: 'url("https://img.freepik.com/free-vector/realistic-luxury-background-design_23-2149075588.jpg")',
-                    }}
-                    data-swiper-parallax="-23%"
-                ></div>
-
                 {arrSwiper.map((item, index) => (
                     <SwiperSlide className={css.block} key={index}>
                         <img className={css.img} src={item.img} alt="гадание" />

@@ -44,16 +44,14 @@
 
         .blocks {
             margin-top: 60px;
-            border-radius: 50%;
             display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 80px;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
             position: relative;
-
             .img2 {
                 position: absolute;
                 bottom: 0;
-                right:  0;
+                right: 0;
                 z-index: -1;
                 height: auto;
                 animation: glass 4s ease-in-out infinite alternate;
@@ -66,7 +64,7 @@
                 position: relative;
 
                 .img1 {
-                    width: 80%;
+                    width: 70%;
                     height: auto;
                     animation: glass 4s ease-in-out infinite alternate;
                 }
@@ -75,7 +73,7 @@
                     position: absolute;
                     top: 0;
                     right: 0;
-                    width: 40%;
+                    width: 35%;
                     height: auto;
                     animation: glass 4s ease-in-out infinite alternate;
                     animation-delay: 2s;
@@ -98,6 +96,7 @@
                 gap: 30px;
                 flex-direction: column;
                 justify-content: center;
+                max-width: 500px;
 
                 input {
                     width: 100%;
