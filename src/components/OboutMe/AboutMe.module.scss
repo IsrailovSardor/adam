@@ -44,7 +44,7 @@
         .blockImgMe {
             width: 100%;
             max-width: 400px;
-            height: calc(520px + 60px);
+            height: calc(650px);
             border-radius: 10px;
             padding: 30px;
             background-color: rgba(255, 255, 255, 0.2);
@@ -74,6 +74,7 @@
             }
 
             .descr {
+                text-align: center;
                 color: white;
                 font-size: 23px;
                 margin-bottom: 16px;

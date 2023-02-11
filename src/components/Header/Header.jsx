@@ -1,12 +1,14 @@
 import React from "react";
 import css from "./Header.module.scss";
+import derevo from "../../assets/icons/derevo.png";
+
 const Header = () => {
     return (
         <header className={css.header}>
             <div className={css.container}>
                 <ul className={css.list}>
                     <li className={css.img}>
-                        <img src="https://cdn-icons-png.flaticon.com/512/5005/5005651.png" alt="" />
+                        <img src={derevo} alt="" />
                     </li>
                     <li>
                         <a href="#aboutMe">ОБО МНЕ</a>

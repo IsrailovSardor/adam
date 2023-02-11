@@ -67,7 +67,6 @@ const SwiperBlock = () => {
             >
                 {arrSwiper.map((item, index) => (
                     <SwiperSlide className={css.block} key={index}>
-                        {/* <img className={css.img} src={item.img} alt="гадание" /> */}
                         <video autoPlay src={item.img} className={css.img}></video>
                         <div className={css.blockText}>
                             <p>{item.title}</p>

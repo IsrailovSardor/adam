@@ -11,6 +11,7 @@ import aaa from "../../assets/otzv/aaa.jpg";
 import aaaa from "../../assets/otzv/aaaa.jpg";
 import aaaaa from "../../assets/otzv/aaaaa.jpg";
 import aaaaaa from "../../assets/otzv/aaaaaa.jpg";
+
 const Client = () => {
     return (
         <div className={css.client} id="client">
