@@ -28,7 +28,7 @@ const AboutMe = () => {
                 <div className={css.blockImgMe}>
                     <img src={logo} alt="гадалка" className={css.img} />
                     <p className={css.name}>Dianisiya</p>
-                    <p className={css.descr}> 🎴 Экстрасенс маг высшей 🎴 категории, терапия души и тела, народный целитель Казахстана</p>
+                    <p className={css.descr}> 🎴 Экстрасенс маг высшей категории, терапия души и тела, народный целитель Казахстана</p>
                     <a
                         target={"_blank"}
                         href="https://api.whatsapp.com/send/?phone=77772446712&text&type=phone_number&app_absent=0"
