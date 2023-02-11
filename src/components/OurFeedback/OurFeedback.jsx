@@ -10,7 +10,6 @@ const OurFeedback = () => {
                 <p className={css.title}>Оставьте заявку на обратный звонок</p>
                 <div className={css.blocks}>
                     <img src={taro} alt="glass" className={css.img2} />
-
                     <div className={css.imgs}>
                         <img src={card} alt="glass" className={css.img1} />
                         <img src={ball} alt="glass" className={css.img3} />

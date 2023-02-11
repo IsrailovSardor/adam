@@ -26,9 +26,13 @@
         .blockAccordion {
             font-size: 18px;
             transition: 200s ease-out;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
 
             .desrc {
                 display: flex;
+                align-items: center;
                 cursor: pointer;
                 gap: 12px;
 
