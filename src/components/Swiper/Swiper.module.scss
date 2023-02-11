@@ -12,20 +12,9 @@
     .mySwiper {
         border-radius: 10px;
         height: auto;
-        max-width: 800px;
+        max-width: 1000px;
         margin: auto;
         height: auto;
-
-        .parallaxBg {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 130%;
-            height: 100%;
-            -webkit-background-size: cover;
-            background-size: cover;
-            background-position: center;
-        }
 
         .block {
             padding: 10px;
@@ -35,11 +24,12 @@
             grid-template-columns: 1fr 1.5fr;
             gap: 30px;
             padding-bottom: 34px;
+
             .img {
                 border-radius: 10px;
                 width: 100%;
-                height: 200px;
-                object-fit: cover;
+                height: auto;
+                object-fit: contain;
             }
 
             .blockText {
@@ -63,5 +53,81 @@
             }
         }
 
+    }
+}
+
+@media (max-width: 991.98px) {
+    .swiper {
+        padding: 60px 20px;
+
+        .globalTitlle {
+            margin-bottom: 50px;
+        }
+
+        .mySwiper {
+            .block {
+                grid-template-columns: 1fr 3fr;
+                gap: 20px;
+                padding-bottom: 24px;
+
+                .blockText {
+                    p:first-child {
+                        padding: 10px 20px;
+                        font-size: 19px;
+                    }
+
+                    p:last-child {
+                        padding: 10px 20px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .swiper {
+        .mySwiper {
+            .block {
+                grid-template-columns: 1fr;
+
+                .img {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .swiper {
+        .globalTitlle {
+            font-size: 30px;
+        }
+
+        .mySwiper {
+            .block {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+
+                .img {
+                    display: block;
+                }
+
+                .blockText {
+
+                    p:first-child {
+                        padding: 10px;
+                    }
+
+                    p:last-child {
+                        padding: 10px;
+                        font-size: 17px;
+                    }
+                }
+            }
+
+        }
     }
 }

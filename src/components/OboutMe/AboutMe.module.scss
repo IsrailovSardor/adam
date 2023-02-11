@@ -89,6 +89,15 @@
                 color: white;
                 border: 2px solid white;
                 border-radius: 10px;
+                cursor: pointer;
+                text-decoration: none;
+                display: grid;
+                place-items: center;
+                transition: 0.3s;
+
+                &:hover {
+                    transform: scale(0.98);
+                }
             }
 
             .call {
@@ -106,6 +115,94 @@
 }
 
 
+@media (max-width: 991.98px) {
+    .aboutMe {
+        .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column-reverse;
 
-// opacity: 1;
-// transform: translate3d(0,0,0) scale(1);
+            .blockAboutMe {
+                width: 100%;
+                max-width: 100%;
+
+                .blockText {
+                    width: 100%;
+                    background-color: rgba(255, 255, 255, 0.2);
+                    border-radius: 10px;
+                    overflow: hidden;
+                    color: white;
+
+                    .title {
+                        padding-left: 20px;
+                    }
+
+                    .descr {
+                        padding: 20px;
+                    }
+                }
+            }
+
+            .blockImgMe {
+                height: auto;
+                padding: 20px;
+                position: static;
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .aboutMe {
+        .container {
+            padding: 40px 20px 80px;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .aboutMe {
+        .container {
+            .blockAboutMe {
+                .blockText {
+                    .title {
+                        font-size: 19px;
+                        padding: 15px;
+                    }
+
+                    .descr {
+                        padding: 15px;
+                        font-size: 17px;
+                    }
+                }
+            }
+
+            .blockImgMe {
+                .img {
+                    width: 200px;
+                    height: 200px;
+                    margin-bottom: 10px;
+                }
+
+                .name {
+                    font-size: 30px;
+                }
+
+                .descr {
+                    color: white;
+                    font-size: 19px;
+                }
+
+                .btn {
+                    height: 40px;
+                    font-size: 19px;
+                }
+
+                .call {
+                    margin-top: 10px;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}

@@ -55,3 +55,37 @@
         padding-bottom: 30px;
     }
 }
+
+@media (max-width: 575.98px) {
+    .whyMe {
+        .title {
+            padding-left: 20px;
+            font-size: 19px;
+        }
+
+        .arrowBlock {
+            padding: 20px;
+
+            .blockAccordion {
+                font-size: 17px;
+
+                .desrc {
+                    .arrow {
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    .des {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+
+        .time {
+            font-size: 17px;
+            margin: 0 20px;
+            padding-bottom: 20px;
+        }
+    }
+}

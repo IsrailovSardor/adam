@@ -5,20 +5,11 @@ const Header = () => {
         <header className={css.header}>
             <div className={css.container}>
                 <ul className={css.list}>
+                    <li className={css.img}>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5005/5005651.png" alt="" />
+                    </li>
                     <li>
                         <a href="#aboutMe">ОБО МНЕ</a>
-                    </li>
-
-                    <li>ОТЗЫВЫ КЛИЕНТОВ</li>
-                    <li>
-                        <a href="#call">ОБРАТНАЯ СВЯЗЬ</a>
-                    </li>
-
-                    <li className={css.img}>
-                        <img
-                            src="https://cdn-icons-png.flaticon.com/512/5005/5005651.png"
-                            alt=""
-                        />
                     </li>
                     <li>
                         <a href="#service">УСЛУГИ</a>
@@ -28,6 +19,12 @@ const Header = () => {
                     </li>
                     <li>
                         <a href="#inst">ИНСТАГРАМ</a>
+                    </li>
+                    <li>
+                        <a href="#client">ОТЗЫВЫ КЛИЕНТОВ</a>
+                    </li>
+                    <li>
+                        <a href="#call">ОБРАТНАЯ СВЯЗЬ</a>
                     </li>
                 </ul>
             </div>

@@ -52,6 +52,8 @@
             gap: 50px;
 
             .block {
+                text-decoration: none;
+                color: black;
                 width: 100%;
                 display: flex;
                 flex-direction: column;
@@ -111,6 +113,59 @@
                 .descr {
                     text-align: center;
                     font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .services {
+        .container {
+            .blocks {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .services {
+        .container {
+            .title {
+                font-size: 40px;
+            }
+
+            .blocks {
+                margin-top: 40px;
+                grid-template-columns: 1fr;
+
+                .block {
+                    .anim {
+                        width: 170px;
+                        height: 170px;
+
+                        &::before {
+                            width: 170px;
+                            height: 170px;
+                        }
+
+                        .img {
+                            width: 160px;
+                            height: 160px;
+                        }
+                    }
+
+
+                    .titleText {
+                        font-size: 22px;
+                        padding-bottom: 10px;
+                    }
+
+                    .descr {
+                        text-align: center;
+                        font-size: 19px;
+                    }
                 }
             }
         }

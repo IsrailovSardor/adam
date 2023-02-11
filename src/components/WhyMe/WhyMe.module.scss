@@ -42,3 +42,21 @@
         }
     }
 }
+
+@media (max-width: 575.98px) {
+    .whyMe {
+        .title {
+            padding-left: 20px;
+            font-size: 19px;
+        }
+
+        .arrowBlock {
+            padding: 20px;
+            min-height: 240px;
+
+            .blockAccordion {
+                font-size: 17px;
+            }
+        }
+    }
+}

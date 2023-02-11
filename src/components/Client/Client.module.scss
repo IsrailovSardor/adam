@@ -52,8 +52,37 @@
             height: auto;
             padding: 20px 50px;
 
+
             img {
                 width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    .client {
+        .container {
+            .title {
+                font-size: 30px;
+            }
+
+            .mySwiper {
+                padding: 20px 0;
+
+                img {
+                    width: 100%;
+                    height: 500px;
+                }
             }
         }
     }
