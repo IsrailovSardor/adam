@@ -42,8 +42,8 @@ body::before {
 
 @keyframes slidein {
   0% {
-    transform: scale(1.2);
     background-image: url('./assets/img/bg1.jpg');
+    transform: scale(1.2);
   }
 
   20% {
@@ -51,10 +51,9 @@ body::before {
     transform: scale(1);
   }
 
-  21% {
-    opacity: 1;
-    transform: scale(1);
+  20.1% {
     background-image: url('./assets/img/bg.jpg');
+    transform: scale(1);
   }
 
   40% {
@@ -62,9 +61,9 @@ body::before {
     transform: scale(1.2);
   }
 
-  41% {
-    transform: scale(1.2);
+  40.1% {
     background-image: url('./assets/img/bg2.jpg');
+    transform: scale(1.2);
   }
 
   60% {
@@ -72,21 +71,20 @@ body::before {
     transform: scale(1);
   }
 
-  61% {
-    transform: scale(1);
+  60.1% {
     background-image: url('./assets/img/b7.webp');
+    transform: scale(1);
 
   }
 
   80% {
-    transform: scale(1.2);
     background-image: url('./assets/img/b7.webp');
-
+    transform: scale(1.2);
   }
 
-  81% {
-    transform: scale(1.2);
+  80.1% {
     background-image: url('./assets/img/bg3.webp');
+    transform: scale(1.2);
   }
 
   100% {
