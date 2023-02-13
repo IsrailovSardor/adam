@@ -27,7 +27,7 @@ const WhyMe = () => {
             <p className={css.title}>Частые вопросы</p>
             <div className={css.arrowBlock}>
                 {whyMe.map((item, index) => (
-                    <Item index={index} item={item} />
+                    <Item index={index} item={item} key={index} />
                 ))}
             </div>
         </div>

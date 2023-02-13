@@ -41,6 +41,7 @@ const OurFeedback = () => {
                     </form>
                 </div>
             </div>
+            <div className={css.police}>© 2019—2023 Dianisiya. Все права защищены.</div>
         </div>
     );
 };

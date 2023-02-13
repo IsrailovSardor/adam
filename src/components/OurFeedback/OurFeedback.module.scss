@@ -154,6 +154,13 @@
             }
         }
     }
+
+    .police {
+        font: 500 19px 'Oswald';
+        background-color: white;
+        padding: 5px 10px;
+        text-align: center;
+    }
 }
 
 
@@ -206,6 +213,13 @@
 @media (max-width: 576px) {
     .ourFeedback {
         width: 100%;
+
+        .police {
+            font: 500 15px 'Oswald';
+            background-color: white;
+            padding: 5px 10px;
+            text-align: center;
+        }
 
         .container {
             .title {
