@@ -1,4 +1,3 @@
-
 import React from "react";
 import css from "./Header.module.scss";
 import derevo from "../../assets/icons/derevo.png";
@@ -8,9 +7,6 @@ const Header = () => {
         <header className={css.header}>
             <div className={css.container}>
                 <ul className={css.list}>
-                    <li className={css.img}>
-                        <img src={derevo} alt="" />
-                    </li>
                     <li>
                         <a href="#aboutMe">ОБО МНЕ</a>
                     </li>
@@ -19,6 +15,9 @@ const Header = () => {
                     </li>
                     <li>
                         <a href="#whyMe">ПОЧЕМУ Я</a>
+                    </li>
+                    <li className={css.img}>
+                        <img src={derevo} alt="" />
                     </li>
                     <li>
                         <a href="#inst">ИНСТАГРАМ</a>

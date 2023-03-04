@@ -11,7 +11,8 @@ import aaa from "../../assets/otzv/aaa.jpg";
 import aaaa from "../../assets/otzv/aaaa.jpg";
 import aaaaa from "../../assets/otzv/aaaaa.jpg";
 import aaaaaa from "../../assets/otzv/aaaaaa.jpg";
-
+import aaaaaaa from "../../assets/otzv/aaaaaaa.jpg";
+import aaaaaaaa from "../../assets/otzv/aaaaaaaa.jpg";
 const Client = () => {
     return (
         <div className={css.client} id="client">
@@ -46,13 +47,13 @@ const Client = () => {
                     }}
                 >
                     <SwiperSlide>
-                        <img src={a} alt="a" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src={aa} alt="a" />
-                    </SwiperSlide>
-                    <SwiperSlide>
                         <img src={aaa} alt="a" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={aaaaaaa} alt="a" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={aaaaaaaa} alt="a" />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={aaaa} alt="a" />
@@ -63,8 +64,15 @@ const Client = () => {
                     <SwiperSlide>
                         <img src={aaaaaa} alt="a" />
                     </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={a} alt="a" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={aa} alt="a" />
+                    </SwiperSlide>
                 </Swiper>
             </div>
+            <div className={css.police}>© 2019—2023 Сара. Все права защищены.</div>
         </div>
     );
 };

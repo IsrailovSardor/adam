@@ -12,24 +12,24 @@ const Feedback = () => {
                 <div className={css.blockAccordion}>
                     <div className={css.desrc}>
                         <img src={call} alt="arrow" className={css.arrow} />
-                        <a target="_blank" href="tel:+77772446712" className={css.des}>
-                            +77772446712
+                        <a target="_blank" href="tel:+996700606008" className={css.des}>
+                            +996700606008
                         </a>
                     </div>
                     <div className={css.desrc}>
                         <img src={wha} alt="arrow" className={css.arrow} />
                         <a
                             target="_blank"
-                            href="https://api.whatsapp.com/send/?phone=77772446712&text&type=phone_number&app_absent=0"
+                            href="https://api.whatsapp.com/send/?phone=996700606008&text&type=phone_number&app_absent=0"
                             className={css.des}
                         >
-                            +77772446712 Whatsapp
+                            +996700606008 Whatsapp
                         </a>
                     </div>
                     <div className={css.desrc}>
                         <img src={ins} alt="arrow" className={css.arrow} />
-                        <a target="_blank" href="https://www.instagram.com/mag_dianisiya/" className={css.des}>
-                            @mag_dianisiya
+                        <a target="_blank" href="https://www.instagram.com/sara722328/" className={css.des}>
+                            @sara722328
                         </a>
                     </div>
                 </div>
