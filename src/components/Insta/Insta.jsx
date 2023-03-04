@@ -8,6 +8,7 @@ import img5 from "../../assets/gallery/seven.jpg";
 import img6 from "../../assets/gallery/six.jpg";
 import img7 from "../../assets/gallery/three.jpg";
 import img8 from "../../assets/gallery/two.jpg";
+import img9 from "../../assets/gallery/nine.png";
 
 const Insta = () => {
     return (
@@ -20,6 +21,7 @@ const Insta = () => {
                     <img src={img2} alt="insta" />
                     <img src={img4} alt="insta" />
                     <img src={img5} alt="insta" />
+                    <img src={img9} alt="insta" />
                     <img src={img6} alt="insta" />
                     <img src={img7} alt="insta" />
                     <img src={img8} alt="insta" />
