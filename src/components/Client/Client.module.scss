@@ -91,12 +91,13 @@
     .client {
         .police {
             font: 500 15px 'Oswald';
-            background-color: white;
             padding: 5px 10px;
             text-align: center;
         }
 
         .container {
+            padding: 40px 20px;
+
             .title {
                 font-size: 30px;
             }
