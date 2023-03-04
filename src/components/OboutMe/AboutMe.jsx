@@ -38,7 +38,7 @@ const AboutMe = () => {
                     </a>
                     <a target={"_blank"} href="tel:+996700606008" className={css.call}>
                         <img src={callIcon} alt="гадалка" />
-                        +77772446712
+                        +996700606008
                     </a>
                 </div>
             </div>
