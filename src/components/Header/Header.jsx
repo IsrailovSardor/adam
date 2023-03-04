@@ -7,6 +7,9 @@ const Header = () => {
         <header className={css.header}>
             <div className={css.container}>
                 <ul className={css.list}>
+                    <li className={css.img}>
+                        <img src={derevo} alt="" />
+                    </li>
                     <li>
                         <a href="#aboutMe">ОБО МНЕ</a>
                     </li>
@@ -14,19 +17,13 @@ const Header = () => {
                         <a href="#service">УСЛУГИ</a>
                     </li>
                     <li>
-                        <a href="#whyMe">ПОЧЕМУ Я</a>
-                    </li>
-                    <li className={css.img}>
-                        <img src={derevo} alt="" />
-                    </li>
-                    <li>
                         <a href="#inst">ИНСТАГРАМ</a>
                     </li>
                     <li>
                         <a href="#client">ОТЗЫВЫ КЛИЕНТОВ</a>
                     </li>
-                    <li>
-                        <a href="#call">ОБРАТНАЯ СВЯЗЬ</a>
+                    <li className={css.img}>
+                        <img src={derevo} alt="" />
                     </li>
                 </ul>
             </div>
