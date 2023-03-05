@@ -7,7 +7,6 @@ import "swiper/css/navigation";
 import {Pagination, Navigation} from "swiper";
 import a from "../../assets/otzv/a.jpg";
 import aa from "../../assets/otzv/aa.jpg";
-import aaa from "../../assets/otzv/aaa.jpg";
 import aaaa from "../../assets/otzv/aaaa.jpg";
 import aaaaa from "../../assets/otzv/aaaaa.jpg";
 import aaaaaa from "../../assets/otzv/aaaaaa.jpg";
@@ -46,9 +45,6 @@ const Client = () => {
                         },
                     }}
                 >
-                    <SwiperSlide>
-                        <img src={aaa} alt="a" />
-                    </SwiperSlide>
                     <SwiperSlide>
                         <img src={aaaaaaa} alt="a" />
                     </SwiperSlide>
