@@ -50,7 +50,7 @@ const Services = () => {
                         {servicesArr.map((item, index) => (
                             <a
                                 target={"_blank"}
-                                href="https://api.whatsapp.com/send/?phone=77772446712&text&type=phone_number&app_absent=0"
+                                href="https://api.whatsapp.com/send/?phone=996700606008&text&type=phone_number&app_absent=0"
                                 className={css.block}
                                 key={index}
                             >
