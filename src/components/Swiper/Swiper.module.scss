@@ -1,0 +1,133 @@
+.swiper {
+    padding: 60px 20px;
+
+    .globalTitlle {
+        font-size: 40px;
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .mySwiper {
+        border-radius: 10px;
+        height: auto;
+        max-width: 1000px;
+        margin: auto;
+        height: auto;
+
+        .block {
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 30px;
+            padding-bottom: 34px;
+
+            .img {
+                border-radius: 10px;
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+
+            .blockText {
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 10px;
+                overflow: hidden;
+
+                p:first-child {
+                    padding: 10px 30px;
+                    color: white;
+                    font-size: 24px;
+                    font-weight: 500;
+                    background: rgba(255, 255, 255, 0.1);
+                }
+
+                p:last-child {
+                    color: white;
+                    padding: 10px 30px;
+                    font-size: 20px;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 991.98px) {
+    .swiper {
+        padding: 60px 20px;
+
+        .globalTitlle {
+            margin-bottom: 50px;
+        }
+
+        .mySwiper {
+            .block {
+                grid-template-columns: 1fr 3fr;
+                gap: 20px;
+                padding-bottom: 24px;
+
+                .blockText {
+                    p:first-child {
+                        padding: 10px 20px;
+                        font-size: 19px;
+                    }
+
+                    p:last-child {
+                        padding: 10px 20px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .swiper {
+        .mySwiper {
+            .block {
+                grid-template-columns: 1fr;
+
+                .img {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .swiper {
+        .globalTitlle {
+            font-size: 30px;
+        }
+
+        .mySwiper {
+            .block {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+
+                .img {
+                    display: block;
+                }
+
+                .blockText {
+
+                    p:first-child {
+                        padding: 10px;
+                    }
+
+                    p:last-child {
+                        padding: 10px;
+                        font-size: 17px;
+                    }
+                }
+            }
+
+        }
+    }
+}
